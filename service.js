@@ -15802,10 +15802,10 @@ utils.intFromLE = intFromLE;
 /*!********************************************!*\
   !*** ./node_modules/elliptic/package.json ***!
   \********************************************/
-/*! exports provided: _from, _id, _inBundle, _integrity, _location, _phantomChildren, _requested, _requiredBy, _resolved, _shasum, _spec, _where, author, bugs, bundleDependencies, dependencies, deprecated, description, devDependencies, files, homepage, keywords, license, main, name, repository, scripts, version, default */
+/*! exports provided: _args, _from, _id, _inBundle, _integrity, _location, _phantomChildren, _requested, _requiredBy, _resolved, _spec, _where, author, bugs, dependencies, description, devDependencies, files, homepage, keywords, license, main, name, repository, scripts, version, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"_from\":\"elliptic\",\"_id\":\"elliptic@6.5.3\",\"_inBundle\":false,\"_integrity\":\"sha512-IMqzv5wNQf+E6aHeIqATs0tOLeOTwj1QKbRcS3jBbYkl5oLAserA8yJTT7/VyHUYG91PRmPyeQDObKLPpeS4dw==\",\"_location\":\"/elliptic\",\"_phantomChildren\":{},\"_requested\":{\"type\":\"tag\",\"registry\":true,\"raw\":\"elliptic\",\"name\":\"elliptic\",\"escapedName\":\"elliptic\",\"rawSpec\":\"\",\"saveSpec\":null,\"fetchSpec\":\"latest\"},\"_requiredBy\":[\"#USER\",\"/\",\"/browserify-sign\",\"/create-ecdh\"],\"_resolved\":\"https://registry.npmjs.org/elliptic/-/elliptic-6.5.3.tgz\",\"_shasum\":\"cb59eb2efdaf73a0bd78ccd7015a62ad6e0f93d6\",\"_spec\":\"elliptic\",\"_where\":\"/home/lenny/thingies/secret-manager-service\",\"author\":{\"name\":\"Fedor Indutny\",\"email\":\"fedor@indutny.com\"},\"bugs\":{\"url\":\"https://github.com/indutny/elliptic/issues\"},\"bundleDependencies\":false,\"dependencies\":{\"bn.js\":\"^4.4.0\",\"brorand\":\"^1.0.1\",\"hash.js\":\"^1.0.0\",\"hmac-drbg\":\"^1.0.0\",\"inherits\":\"^2.0.1\",\"minimalistic-assert\":\"^1.0.0\",\"minimalistic-crypto-utils\":\"^1.0.0\"},\"deprecated\":false,\"description\":\"EC cryptography\",\"devDependencies\":{\"brfs\":\"^1.4.3\",\"coveralls\":\"^3.0.8\",\"grunt\":\"^1.0.4\",\"grunt-browserify\":\"^5.0.0\",\"grunt-cli\":\"^1.2.0\",\"grunt-contrib-connect\":\"^1.0.0\",\"grunt-contrib-copy\":\"^1.0.0\",\"grunt-contrib-uglify\":\"^1.0.1\",\"grunt-mocha-istanbul\":\"^3.0.1\",\"grunt-saucelabs\":\"^9.0.1\",\"istanbul\":\"^0.4.2\",\"jscs\":\"^3.0.7\",\"jshint\":\"^2.10.3\",\"mocha\":\"^6.2.2\"},\"files\":[\"lib\"],\"homepage\":\"https://github.com/indutny/elliptic\",\"keywords\":[\"EC\",\"Elliptic\",\"curve\",\"Cryptography\"],\"license\":\"MIT\",\"main\":\"lib/elliptic.js\",\"name\":\"elliptic\",\"repository\":{\"type\":\"git\",\"url\":\"git+ssh://git@github.com/indutny/elliptic.git\"},\"scripts\":{\"jscs\":\"jscs benchmarks/*.js lib/*.js lib/**/*.js lib/**/**/*.js test/index.js\",\"jshint\":\"jscs benchmarks/*.js lib/*.js lib/**/*.js lib/**/**/*.js test/index.js\",\"lint\":\"npm run jscs && npm run jshint\",\"test\":\"npm run lint && npm run unit\",\"unit\":\"istanbul test _mocha --reporter=spec test/index.js\",\"version\":\"grunt dist && git add dist/\"},\"version\":\"6.5.3\"}");
+module.exports = JSON.parse("{\"_args\":[[\"elliptic@6.5.3\",\"/home/lenny/thingies/secret-manager-service\"]],\"_from\":\"elliptic@6.5.3\",\"_id\":\"elliptic@6.5.3\",\"_inBundle\":false,\"_integrity\":\"sha512-IMqzv5wNQf+E6aHeIqATs0tOLeOTwj1QKbRcS3jBbYkl5oLAserA8yJTT7/VyHUYG91PRmPyeQDObKLPpeS4dw==\",\"_location\":\"/elliptic\",\"_phantomChildren\":{},\"_requested\":{\"type\":\"version\",\"registry\":true,\"raw\":\"elliptic@6.5.3\",\"name\":\"elliptic\",\"escapedName\":\"elliptic\",\"rawSpec\":\"6.5.3\",\"saveSpec\":null,\"fetchSpec\":\"6.5.3\"},\"_requiredBy\":[\"/browserify-sign\",\"/create-ecdh\"],\"_resolved\":\"https://registry.npmjs.org/elliptic/-/elliptic-6.5.3.tgz\",\"_spec\":\"6.5.3\",\"_where\":\"/home/lenny/thingies/secret-manager-service\",\"author\":{\"name\":\"Fedor Indutny\",\"email\":\"fedor@indutny.com\"},\"bugs\":{\"url\":\"https://github.com/indutny/elliptic/issues\"},\"dependencies\":{\"bn.js\":\"^4.4.0\",\"brorand\":\"^1.0.1\",\"hash.js\":\"^1.0.0\",\"hmac-drbg\":\"^1.0.0\",\"inherits\":\"^2.0.1\",\"minimalistic-assert\":\"^1.0.0\",\"minimalistic-crypto-utils\":\"^1.0.0\"},\"description\":\"EC cryptography\",\"devDependencies\":{\"brfs\":\"^1.4.3\",\"coveralls\":\"^3.0.8\",\"grunt\":\"^1.0.4\",\"grunt-browserify\":\"^5.0.0\",\"grunt-cli\":\"^1.2.0\",\"grunt-contrib-connect\":\"^1.0.0\",\"grunt-contrib-copy\":\"^1.0.0\",\"grunt-contrib-uglify\":\"^1.0.1\",\"grunt-mocha-istanbul\":\"^3.0.1\",\"grunt-saucelabs\":\"^9.0.1\",\"istanbul\":\"^0.4.2\",\"jscs\":\"^3.0.7\",\"jshint\":\"^2.10.3\",\"mocha\":\"^6.2.2\"},\"files\":[\"lib\"],\"homepage\":\"https://github.com/indutny/elliptic\",\"keywords\":[\"EC\",\"Elliptic\",\"curve\",\"Cryptography\"],\"license\":\"MIT\",\"main\":\"lib/elliptic.js\",\"name\":\"elliptic\",\"repository\":{\"type\":\"git\",\"url\":\"git+ssh://git@github.com/indutny/elliptic.git\"},\"scripts\":{\"jscs\":\"jscs benchmarks/*.js lib/*.js lib/**/*.js lib/**/**/*.js test/index.js\",\"jshint\":\"jscs benchmarks/*.js lib/*.js lib/**/*.js lib/**/**/*.js test/index.js\",\"lint\":\"npm run jscs && npm run jshint\",\"test\":\"npm run lint && npm run unit\",\"unit\":\"istanbul test _mocha --reporter=spec test/index.js\",\"version\":\"grunt dist && git add dist/\"},\"version\":\"6.5.3\"}");
 
 /***/ }),
 
@@ -36147,7 +36147,7 @@ scimodule.prepareAndExpose = function() {
 
 // Generated by CoffeeScript 2.5.1
 (function() {
-  var authenticateTest, createSignature, crypto, elliptic, formatKey, log, olog, ostr, print, privone, privtwo, pubone, pubtwo, securitymodule;
+  var authenticateTest, createSignature, crypto, elliptic, formatKey, log, olog, ostr, print, privone, privtwo, pubone, pubtwo, securitymodule, serverPriv;
 
   securitymodule = {
     name: "securitymodule"
@@ -36177,6 +36177,8 @@ scimodule.prepareAndExpose = function() {
 
   //###########################################################
   //region sampleKeyPairs
+  serverPriv = "5FE5F1D902D6B42E55B6E4E401E987C3F2BC7F95D33188863DE91760B7D58492";
+
   privone = `-----BEGIN PRIVATE KEY-----
 MC4CAQAwBQYDK2VwBCIEIF/l8dkC1rQuVbbk5AHph8PyvH+V0zGIhj3pF2C31YSS
 -----END PRIVATE KEY-----    `;
@@ -36234,30 +36236,54 @@ MC4CAQAwBQYDK2VwBCIEIABaG2DGL4WE9niHPbdZtbmPOufhkqEJIibW1mlYsfXT
   //###########################################################
   //region exposedFunctions
   securitymodule.test = function() {
-    var EC, buffer, ed25519, key1, key2, key3, privoneBase64, privoneHex, privtwoBase64, privtwoHex, shared1, shared13, shared132, shared2, shared21, shared213, shared32, shared321;
+    var EC, ed25519, key1, key2, key3, serverKey, shared1, shared13, shared132, shared2, shared21, shared213, shared3, shared32, shared321, shared4;
     log("securitymodule.test");
     EC = elliptic.ec;
     ed25519 = new EC('ed25519');
-    privoneBase64 = "MC4CAQAwBQYDK2VwBCIEIF/l8dkC1rQuVbbk5AHph8PyvH+V0zGIhj3pF2C31YSS";
-    privtwoBase64 = "MC4CAQAwBQYDK2VwBCIEIABaG2DGL4WE9niHPbdZtbmPOufhkqEJIibW1mlYsfXT";
-    buffer = Buffer.from(privoneBase64, 'base64');
-    privoneHex = buffer.toString('hex');
-    buffer = Buffer.from(privtwoBase64, 'base64');
-    privtwoHex = buffer.toString("hex");
-    log(privoneHex);
-    log(privtwoHex);
-    process.exit(0);
+    
+    // privoneBase64 = "MC4CAQAwBQYDK2VwBCIEIF/l8dkC1rQuVbbk5AHph8PyvH+V0zGIhj3pF2C31YSS"
+    // privtwoBase64 = "MC4CAQAwBQYDK2VwBCIEIABaG2DGL4WE9niHPbdZtbmPOufhkqEJIibW1mlYsfXT"
+
+    // buffer = Buffer.from(privoneBase64, 'base64');
+    // privoneHex = buffer.toString('hex');
+    // buffer = Buffer.from(privtwoBase64, 'base64');
+    // privtwoHex = buffer.toString("hex")
+
+    // log privoneHex
+    // log privtwoHex
+
+    // process.exit(0)
+    serverKey = ed25519.keyFromPrivate(serverPriv);
+    log(serverKey.getPrivate().toString(16));
     key1 = ed25519.genKeyPair();
-    log(key1);
     key2 = ed25519.genKeyPair();
-    log(key2);
     key3 = ed25519.genKeyPair();
-    log(key3);
+    //Diffie-Hellman
+
+    // p = private key
+    // mod = modulus
+    // k = public key
+    // msg = message
+
+    // (msg * p) % mod = secret
+    // msg = (secret * k) % mod  
+
+    // sig = (hash(msg) * p ) % mod
+    // -> (sig * k) % mod == hash(msg)
     log("- - -");
+    // shared = p * k % mod 
     shared1 = key1.derive(key2.getPublic());
     shared2 = key2.derive(key1.getPublic());
+    shared3 = key1.derive(serverKey.getPublic());
+    shared4 = serverKey.derive(key1.getPublic());
+    log(key1.getPrivate().toString(16));
+    log(key2.getPrivate().toString(16));
+    log("- - -");
     log(shared1.toString(16));
     log(shared2.toString(16));
+    log(shared3.toString(16));
+    log(shared4.toString(16));
+    process.exit(0);
     log("- - -");
     shared13 = key1.getPublic().mul(key3.getPrivate());
     shared21 = key2.getPublic().mul(key1.getPrivate());
